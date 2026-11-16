@@ -1,4 +1,6 @@
-﻿namespace C_Course.Assignment1
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace C_Course.Assignment1
 {
     internal class Program
     {
@@ -97,6 +99,15 @@
             {
                 Console.WriteLine("Invalid number");
             }
+
+
+            #endregion
+
+            #region Q09.convert into a string using ToString() 
+
+            int newpages = 464;
+            string newpagesString = newpages.ToString();
+            Console.WriteLine(newpagesString.GetType());
 
 
             #endregion
