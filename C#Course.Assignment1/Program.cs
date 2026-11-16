@@ -80,6 +80,27 @@
 
             #endregion
 
+            #region Q08. using int.parse
+
+            string yearText = "2023";
+            int yearInt = int.Parse(yearText);
+
+            Console.WriteLine(yearInt);
+            //==============
+
+            string badText = "abc";
+            if (int.TryParse(badText, out int badInt))
+            {
+                Console.WriteLine(badInt);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
+
+
+            #endregion
+
         }
     }
 
