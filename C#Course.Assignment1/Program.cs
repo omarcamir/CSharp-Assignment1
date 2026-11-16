@@ -139,8 +139,16 @@ namespace C_Course.Assignment1
 
             #endregion
 
+            #region Q12 print wwther null
 
-        }
+            string? reviewer = null;
+            if (reviewer == null)
+            {
+                Console.WriteLine("review == null");
+            }
+            #endregion
+
+    }
     }
 
     class Book { public string Title; public int Pages; }
