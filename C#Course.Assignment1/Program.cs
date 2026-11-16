@@ -51,6 +51,18 @@
 
             #endregion
 
+            #region Q05. Declare then convert without using a cast.
+            int pagesNum = 300;
+            double dPages = pagesNum;
+            Console.WriteLine(dPages);
+            Console.WriteLine(dPages.GetType());
+
+
+            #endregion
+
+
+
+
         }
     }
 
