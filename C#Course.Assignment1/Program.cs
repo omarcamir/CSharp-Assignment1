@@ -148,7 +148,12 @@ namespace C_Course.Assignment1
             }
             #endregion
 
-    }
+            #region Q13 Use ?. to safely read book
+            Book? book = null;
+            Console.WriteLine(book?.Title);
+            #endregion
+
+        }
     }
 
     class Book { public string Title; public int Pages; }
