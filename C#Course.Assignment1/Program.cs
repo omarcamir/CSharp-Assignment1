@@ -60,7 +60,15 @@
 
             #endregion
 
+            #region Q06. Declare then convert using a cast.
+            double price = 49.99;
+            int priceInt = (int)price;
 
+            Console.WriteLine(priceInt);
+            Console.WriteLine(priceInt.GetType());
+
+
+            #endregion
 
 
         }
