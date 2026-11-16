@@ -112,6 +112,19 @@ namespace C_Course.Assignment1
 
             #endregion
 
+            #region Q10. box and unbox
+            int copies = 100;
+            object objs = copies;
+
+            Console.WriteLine(objs);
+
+            int unboxObjs = (int)objs;
+
+            Console.WriteLine(unboxObjs);
+
+            #endregion
+
+
         }
     }
 
