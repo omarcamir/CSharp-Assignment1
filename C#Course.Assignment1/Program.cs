@@ -13,6 +13,16 @@
 
             #endregion
 
+            #region Q02. Using the Book class  
+
+            Console.WriteLine(bookObj.ToString());
+            Console.WriteLine(bookObj.Equals(bookObj));
+            Console.WriteLine(bookObj.GetHashCode());
+            Console.WriteLine(bookObj.GetType());
+
+            #endregion
+
+
         }
     }
 
