@@ -31,7 +31,25 @@
 
             #endregion
 
+            #region Q04. Write code that divides 10 by 0 
 
+            try
+            {
+                int zero = 0;
+                int result = 10 / zero;
+
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by\r\nzero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
+
+            #endregion
 
         }
     }
