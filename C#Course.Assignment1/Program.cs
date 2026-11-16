@@ -124,6 +124,21 @@ namespace C_Course.Assignment1
 
             #endregion
 
+            #region Q11
+            int? year = null;
+            if (year.HasValue)
+            {
+                Console.WriteLine(year);
+            }
+            else
+            {
+                Console.WriteLine("year has no Value");
+            }
+            year = 2023;
+            Console.WriteLine(year);
+
+            #endregion
+
 
         }
     }
