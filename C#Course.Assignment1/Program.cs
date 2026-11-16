@@ -157,11 +157,22 @@ namespace C_Course.Assignment1
             Console.WriteLine(book?.Title ?? "untitled");
 
             string? title = book?.Title;
-            
+
             title ??= "Untitled";
 
 
             Console.WriteLine(title);
+            #endregion
+
+            #region Q15. you're sure it's not null
+
+            string? nameA = "Ahmed";
+            string confirmedName = nameA!;
+
+            Console.WriteLine(confirmedName);
+
+
+
             #endregion
 
 
