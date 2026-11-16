@@ -70,6 +70,15 @@
 
             #endregion
 
+            #region Q07.using the Convert class.
+
+            string pagesText = "464";
+            int pagesInt = Convert.ToInt32(pagesText);
+
+            Console.WriteLine(pagesInt);
+            Console.WriteLine(pagesInt.GetType());
+
+            #endregion
 
         }
     }
