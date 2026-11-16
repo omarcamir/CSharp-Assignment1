@@ -22,6 +22,16 @@
 
             #endregion
 
+            #region Q03. Look at the line below.
+            // int pages = "464"; // compile-time error
+
+            //fix
+            int pages = int.Parse("464");
+
+
+            #endregion
+
+
 
         }
     }
